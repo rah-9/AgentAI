@@ -6,7 +6,8 @@ from PIL import Image
 from config.settings import APP_CONFIG, COMPANY_INFO, THEME
 
 # API endpoint configuration
-FASTAPI_URL = "http://localhost:8000/process_input/"
+# FASTAPI_URL = "http://localhost:8000/process_input/"
+FASTAPI_URL = "https://my-fastapi-backend.fly.dev/process_input/"
 
 # Initialize session state variables
 if 'debug_info' not in st.session_state:
