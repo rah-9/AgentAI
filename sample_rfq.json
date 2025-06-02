@@ -1,0 +1,40 @@
+{
+    "event_type": "rfq",
+    "payload": {
+        "rfq_id": "RFQ-2023-0542",
+        "customer": {
+            "id": "CUST-1089",
+            "name": "Acme Corporation",
+            "contact_email": "procurement@acmecorp.com",
+            "address": {
+                "street": "123 Business Ave",
+                "city": "Enterprise",
+                "state": "CA",
+                "zip": "94105"
+            }
+        },
+        "items": [
+            {
+                "item_id": "PROD-7761",
+                "quantity": 50,
+                "description": "High-performance server rack",
+                "unit": "each",
+                "estimated_cost": 1200.00
+            },
+            {
+                "item_id": "PROD-2458",
+                "quantity": 25,
+                "description": "Network switch 10Gbps",
+                "unit": "each",
+                "estimated_cost": 850.00
+            }
+        ],
+        "date_requested": "2023-06-15",
+        "priority": "high",
+        "delivery_timeframe": "30 days",
+        "special_instructions": "Please include installation services in quote"
+    },
+    "timestamp": "2023-06-15T10:23:45Z",
+    "source": "customer_portal",
+    "version": "1.0"
+}

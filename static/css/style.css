@@ -1,0 +1,105 @@
+:root {
+    --primary-color: #4da6ff;
+    --primary-hover-color: #8ce7ff;
+    --background-color: #f5f9ff;
+    --card-bg-color: #ffffff;
+    --border-color: #dce6f0;
+    --text-color: #3fb43f;
+    --text-secondary-color: #516377;
+    --text-muted-color: #8c9ba9;
+}
+
+/* Body and Page */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+.main {
+    background: linear-gradient(120deg, var(--background-color) 0%, #eaf4fd 100%);
+    color: var(--text-color);
+}
+
+/* Header */
+[data-testid="stHeader"] {
+    background-color: var(--background-color);
+}
+
+/* Custom Header Section */
+.custom-header {
+    background: linear-gradient(90deg, #e0f0ff 0%, #f1f7ff 100%);
+    box-shadow: 0 2px 16px 0 rgba(0, 100, 200, 0.07);
+    padding: 2rem;
+    border-radius: 0.7rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.custom-header h1 {
+    color: var(--text-color);
+}
+
+.custom-header p {
+    color: var(--text-secondary-color);
+}
+
+/* Buttons */
+.stButton button {
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-hover-color) 100%);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(33, 150, 243, 0.10);
+    transition: background 0.3s ease, box-shadow 0.2s ease;
+}
+
+.stButton button:hover {
+    background: linear-gradient(90deg, var(--primary-hover-color) 0%, var(--primary-color) 100%);
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.15);
+}
+
+/* File Uploader */
+[data-testid="stFileUploader"] {
+    background: var(--card-bg-color);
+    border: 2px dashed var(--border-color);
+    border-radius: 0.7rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 6px rgba(33, 150, 243, 0.05);
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: var(--text-color) !important;
+}
+
+p, li {
+    color: var(--text-secondary-color) !important;
+}
+
+/* Results Card */
+.results-card {
+    background: var(--card-bg-color);
+    box-shadow: 0 1px 8px rgba(33, 150, 243, 0.07);
+    padding: 1.5rem;
+    border-radius: 0.7rem;
+    border: none;
+    margin-top: 1rem;
+    transition: box-shadow 0.2s ease;
+}
+
+.results-card:hover {
+    box-shadow: 0 4px 16px rgba(33, 150, 243, 0.10);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: var(--text-muted-color);
+    font-size: 0.9rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}

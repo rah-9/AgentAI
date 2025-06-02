@@ -1,0 +1,13 @@
+streamlit
+ollama
+reportlab
+pillow>=10.0.0
+pytesseract
+PyYAML
+openai>=1.0.0
+python-dotenv
+fastapi
+uvicorn
+langchain
+PyPDF2
+faker
