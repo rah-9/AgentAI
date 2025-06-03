@@ -1,5 +1,3 @@
-Here is the full updated `README.md` code block that you can copy and paste directly into your project:
-
 ```markdown
 # Invoice Processing Using AI Agents
 
@@ -7,7 +5,7 @@ A production-ready system for intelligently processing, classifying, and extract
 
 ---
 
-##  Features
+## Features
 
 - **Multi-Format Document Support**  
   Process a wide range of input types including PDFs, Emails, JSON, and Images (with OCR capabilities).
@@ -26,16 +24,16 @@ A production-ready system for intelligently processing, classifying, and extract
 
 ---
 
-##  System Architecture
+## System Architecture
 
 ![System Architecture](design_docs/design.jpg)
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
-```
+
 Lets-Build-Invoice-Processing-Using-AI-Agents/
 ├── agents/                 # AI agents for different input formats
 │   ├── pdf\_agent.py        # Handles PDF invoices and documents
@@ -58,17 +56,18 @@ Lets-Build-Invoice-Processing-Using-AI-Agents/
 
 ---
 
-##  Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- `pip` (Python package manager)
+- Python 3.8 or higher  
+- `pip` (Python package manager)  
 - (Optional) Virtual environment manager such as `venv` or `virtualenv`
 
 ### Installation
 
 1. **Clone the Repository**
+
    ```bash
    git clone https://github.com/rah-9/AgentAI.git
    cd AgentAI
@@ -96,12 +95,12 @@ Lets-Build-Invoice-Processing-Using-AI-Agents/
 
    ```bash
    cp .env.example .env
-   # Then edit .env to suit your local or production environment
+   # Edit .env to suit your local or production environment
    ```
 
 ---
 
-##   Running the Application
+## Running the Application
 
 ### Launch Streamlit Dashboard
 
@@ -121,7 +120,7 @@ API will be available at: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-##  API Usage
+## API Usage
 
 ### Endpoints
 
@@ -133,21 +132,33 @@ API will be available at: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## 🖥Streamlit Dashboard
+## Streamlit Dashboard
 
 Access a user-friendly dashboard that allows document uploads, real-time processing, and visual summaries at:
 [http://localhost:8501](http://localhost:8501)
 
 ---
 
-##Contributing
+## Contributing
 
 We welcome contributions!
 
 1. Fork this repository
-2. Create a new branch: `git checkout -b feature/YourFeatureName`
-3. Commit your changes: `git commit -m 'Add your feature'`
-4. Push to your fork: `git push origin feature/YourFeatureName`
+2. Create a new branch:
+
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Commit your changes:
+
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push to your fork:
+
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
 5. Submit a Pull Request
 
 ---
@@ -165,9 +176,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-For support, bug reports, or feature requests, please [open an issue](https://github.com/yourusername/Lets-Build-Invoice-Processing-Using-AI-Agents/issues) or contact the maintainers.
+For support, bug reports, or feature requests, please [open an issue](https://github.com/rah-9/AgentAI/issues) or contact the maintainers.
 
 ```
-
-Let me know if you'd like this as a downloadable file, or if you want to auto-generate badges (e.g. Python version, license, CI/CD status) for the top of the README.
 ```
