@@ -37,9 +37,6 @@ Lets-Build-Invoice-Processing-Using-AI-Agents/
 │   └── classifier\_agent.py # Routes documents to the correct agent
 ├── components/             # Reusable Streamlit UI components
 ├── config/                 # Configuration files and environment variables
-├── design\_docs/            # System design and architecture diagrams
-│   ├── design.jpg
-│   └── 1.jpg
 ├── memory/                 # Session state and processing trace logic
 ├── static/                 # Static files (CSS, JS, images)
 ├── utils/                  # Helper functions and utilities
