@@ -63,8 +63,9 @@ Lets-Build-Invoice-Processing-Using-AI-Agents/
    ```bash
    git clone https://github.com/rah-9/AgentAI.git
    cd AgentAI
+   ```
 ````
-
+````
 2. **Set Up a Virtual Environment**
 
    ```bash
@@ -155,11 +156,6 @@ We welcome contributions!
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## Acknowledgments
 
