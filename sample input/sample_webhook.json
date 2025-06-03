@@ -1,0 +1,12 @@
+{
+    "event": "invoice_uploaded",
+    "source": "accounts_system",
+    "payload": {
+        "invoice_id": "INV-99321",
+        "client": "Acme Corp",
+        "amount": 15876.45,
+        "currency": "USD",
+        "timestamp": "2025-06-02T15:12:00Z",
+        "status": "received"
+    }
+}
