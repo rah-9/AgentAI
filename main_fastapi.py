@@ -901,3 +901,12 @@ async def process_input(request: Request, file: UploadFile = File(None)):
                 "actions": ["Contact support"]
             }
         )
+
+if __name__ == "__main__":
+    import uvicorn
+    from dotenv import load_dotenv
+    import os
+    
+    load_dotenv()
+    port = int(os.getenv("BACKEND_PORT", "8000"))
+    uvicorn.run("main_fastapi:app", host="0.0.0.0", port=port, reload=True)

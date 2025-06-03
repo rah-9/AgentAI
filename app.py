@@ -1,12 +1,17 @@
+import os
 import streamlit as st
 import requests
 import json
 import traceback
 from PIL import Image
+from dotenv import load_dotenv
 from config.settings import APP_CONFIG, COMPANY_INFO, THEME
 
+# Load environment variables
+load_dotenv()
+
 # API endpoint configuration
-FASTAPI_URL = "http://localhost:8000/process_input/"
+FASTAPI_URL = os.getenv("BACKEND_URL", "http://localhost:8000/process_input/")
 
 # Initialize session state variables
 if 'debug_info' not in st.session_state:
