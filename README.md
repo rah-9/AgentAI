@@ -7,7 +7,7 @@ A production-ready system for intelligently processing, classifying, and extract
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Multi-Format Document Support**  
   Process a wide range of input types including PDFs, Emails, JSON, and Images (with OCR capabilities).
@@ -26,13 +26,13 @@ A production-ready system for intelligently processing, classifying, and extract
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 ![System Architecture](design_docs/design.jpg)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ```
@@ -58,7 +58,7 @@ Lets-Build-Invoice-Processing-Using-AI-Agents/
 
 ---
 
-## 🛠 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -70,8 +70,8 @@ Lets-Build-Invoice-Processing-Using-AI-Agents/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/Lets-Build-Invoice-Processing-Using-AI-Agents.git
-   cd Lets-Build-Invoice-Processing-Using-AI-Agents
+   git clone https://github.com/rah-9/AgentAI.git
+   cd AgentAI
 ````
 
 2. **Set Up a Virtual Environment**
@@ -101,7 +101,7 @@ Lets-Build-Invoice-Processing-Using-AI-Agents/
 
 ---
 
-## ⚙️ Running the Application
+##   Running the Application
 
 ### Launch Streamlit Dashboard
 
@@ -121,7 +121,7 @@ API will be available at: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## 📡 API Usage
+##  API Usage
 
 ### Endpoints
 
@@ -133,14 +133,14 @@ API will be available at: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## 🖥️ Streamlit Dashboard
+## 🖥Streamlit Dashboard
 
 Access a user-friendly dashboard that allows document uploads, real-time processing, and visual summaries at:
 [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 🤝 Contributing
+##Contributing
 
 We welcome contributions!
 
@@ -152,17 +152,16 @@ We welcome contributions!
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 * [FastAPI](https://fastapi.tiangolo.com/) for the backend
 * [Streamlit](https://streamlit.io/) for the frontend dashboard
-* [LLaMA](https://github.com/facebookresearch/llama) via [Ollama](https://ollama.ai/) for model-based inference
 
 ---
 
