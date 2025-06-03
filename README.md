@@ -23,11 +23,6 @@ A production-ready system for intelligently processing, classifying, and extract
   Use the interactive Streamlit dashboard or programmatically interact via the FastAPI-based RESTful API.
 
 ---
-
-## System Architecture
-
-![System Architecture](design_docs/design.jpg)
-
 ---
 
 ## Project Structure
@@ -177,6 +172,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 For support, bug reports, or feature requests, please [open an issue](https://github.com/rah-9/AgentAI/issues) or contact the maintainers.
-
-```
-```
